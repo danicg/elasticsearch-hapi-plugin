@@ -21,8 +21,7 @@
   "author": "Josiah Truasheim <josiah@rapidapps.io>",
   "main": "./plugin.js",
   "dependencies": {
-    "elasticsearch": "^2.4.3",
-    "elasticsearch-hapi-logger": "0.0.1"
+    "elasticsearch": "^12.1.0"
   },
   "devDependencies": {
     "hapi": "^6.9.0",

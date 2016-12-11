@@ -2,7 +2,6 @@
 
 var pkg = require('./package');
 var ElasticSearch = require('elasticsearch');
-var Logger = require('elasticsearch-hapi-logger');
 
 exports.register = register;
 exports.register.attributes = {
@@ -14,7 +13,6 @@ function register(plugin, options, next) {
   var Hapi = plugin.hapi;
 
   var config = {
-    log: new Logger(plugin)
   };
 
   for (var key in options) {
